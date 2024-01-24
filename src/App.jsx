@@ -1,6 +1,12 @@
+import Navbar from './components/Navbar';
+import CartContainer from './components/CartContainer';
+
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
-export default App
+    <>
+      <Navbar />
+      <CartContainer />
+    </>
+  );
+};
+export default App;
